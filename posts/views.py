@@ -47,7 +47,7 @@ class postHandler(generics.ListCreateAPIView):
             for i in request.data['tags']:
                 model.tags.add(tagModel.objects.get(tag=i))
         except:
-            return Response("The tag does not exist", status=400)
+            None
         serial = postSerializers(model, data=request.data, partial=True)
         if serial.is_valid():
             serial.save()
