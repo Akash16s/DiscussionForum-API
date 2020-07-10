@@ -16,7 +16,7 @@ class StandardResultsSetPagination(PageNumberPagination):
 
 class DynamicSearchFilter(filters.SearchFilter):
     def get_search_fields(self, view, request):
-        return ["title", "postType", "parentId", "author", "tags"]
+        return ["title", "postType", "parentId", "body"]
 
 
 class postHandler(generics.ListCreateAPIView):
