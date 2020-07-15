@@ -24,7 +24,7 @@ class postHandler(generics.ListCreateAPIView):
     # permission_classes = [IsAuthenticated]
     serializer_class = postSerializers
     filter_backends = [DjangoFilterBackend, DynamicSearchFilter]
-    filterset_fields = ["title", "postType", "parentId", "author", "tags", "score"]
+    filterset_fields = ["id", "title", "postType", "parentId", "author", "tags", "score"]
     pagination_class = StandardResultsSetPagination
 
     def get_queryset(self):
