@@ -60,7 +60,7 @@ class commentView(generics.ListCreateAPIView):
     # permission_classes = [IsAuthenticated]
     serializer_class = commentSerializer
     filter_backends = [DjangoFilterBackend]
-    filterset_fields = ["message", "postId"]
+    filterset_fields = ["message", "postId", "id"]
     pagination_class = StandardResultsSetPagination
 
     def get_queryset(self):
@@ -84,7 +84,7 @@ class tagView(generics.ListCreateAPIView):
     # permission_classes = [IsAuthenticated]
     serializer_class = tagsSerializer
     filter_backends = [DjangoFilterBackend]
-    filterset_fields = ["tag"]
+    filterset_fields = ["tag", "id"]
     pagination_class = StandardResultsSetPagination
 
     def get_queryset(self):

@@ -30,7 +30,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="F:/Web Development/wagtail" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -46,6 +46,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1594877979119">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1594877979119" />
     <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1594709316119">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
